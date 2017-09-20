@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"Converter "</string>
+    <string name="value">Введите количество валюты </string>
+    <string name="lable">Выберите валюту</string>
+    <string name="dialog_1">Dialog 1</string>
+    <string name="message_text">Select currency</string>
+    <string name="usd">USD</string>
+    <string name="rub">RUB</string>
+    <string name="eur">EUR</string>
+    <string name="convert">convert</string>
+</resources>
