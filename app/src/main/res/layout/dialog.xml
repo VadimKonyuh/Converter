@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
 
     <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:columnCount="4">
         <ImageButton
             android:id="@+id/btnRub"
             android:layout_width="wrap_content"
@@ -39,11 +41,44 @@
             android:src="@drawable/us">
         </ImageButton>
         <ImageButton
-            android:id="@+id/btnPl"
+            android:id="@+id/btnPln"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:src="@drawable/pl">
         </ImageButton>
+        <ImageButton
+            android:id="@+id/btnAUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/aud">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnCAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/cad">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnSEK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/sek">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnBRZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/brz">
+        </ImageButton>
+
     </GridLayout>
+
 </LinearLayout>

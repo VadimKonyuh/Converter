@@ -18,12 +18,13 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#ffffff"
-            android:src="@drawable/by" />
+            android:src="@drawable/eu" />
 
         <EditText
             android:id="@+id/inputText"
             android:layout_height="wrap_content"
             android:layout_weight="20"
+            android:inputType="numberDecimal"
             android:layout_width="0dp"/>
 
         <Button
@@ -37,24 +38,25 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
         <ImageButton
-            android:id="@+id/btnUSA"
+            android:id="@+id/btnDlg2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_weight="7"
             android:background="#ffffff"
-            android:src="@drawable/us" />
+            android:src="@drawable/eu" />
 
         <TextView
             android:id="@+id/output"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="30"
+            android:layout_gravity="center_vertical"
             android:text="Количество"
             android:textSize="20dp"
-            android:layout_gravity=""
             android:textColor="#000000"/>
 
     </LinearLayout>

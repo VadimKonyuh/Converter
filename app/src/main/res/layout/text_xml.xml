@@ -11,7 +11,7 @@
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
-        android:src="@drawable/by" />
+        android:src="@drawable/eu" />
 
     <EditText
         android:id="@+id/inputText"
